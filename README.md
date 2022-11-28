@@ -14,7 +14,7 @@ Script written using Python and Selenium that automatically extracts the content
 5) **Enable virtual environment:** `source env/bin/activate`
 6) **Upgrade `pip`:** `"env/bin/python3" -m pip install --upgrade pip`
 7) **Install `wheel`:** `pip3 install wheel`
-8) **Install required libraries and packages:** `pip3 install -r requirements.txt`
+8) **Install required libraries and packages:** `pip3 install -r requirement.txt`
 9) **Run program:** `python3 extracter.py`
 
 Follow the instructions on the terminal to successfully scrape the contents of the course into a text file. Contents will be written to `course.txt` file
