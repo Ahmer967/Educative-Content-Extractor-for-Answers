@@ -8,7 +8,7 @@ Script written using Python and Selenium that automatically extracts the content
 ## Running the script
 **Note:** Replace `pip3` with `pip` in the commands below if the commands do not work with `pip3`
 1) **Clone the repository:** `git clone https://github.com/Ahmer967/Educative-Content-Extracter-for-Answers.git`
-2) **Navigate to the `Educative-Content-Extracter` directory:** `cd Educative-Content-Extracter-for-Answers`
+2) **Navigate to the `Educative-Content-Extracter` directory:** `cd Educative-Content-Extractor-for-Answers`
 3) **Install virtual environment (if not already installed):** `pip3 install virtualenv`
 4) **Create virtual environment:** `python3 -m venv env`
 5) **Enable virtual environment:** `source env/bin/activate`
