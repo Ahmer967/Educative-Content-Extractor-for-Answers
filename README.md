@@ -20,11 +20,10 @@ Script written using Python and Selenium that automatically extracts the content
 Follow the instructions on the terminal to successfully scrape the contents of the course into a text file. Contents will be written to `course.txt` file
 
 ## Format
-* Lesson title (h1 heading extracted into text file)
+* Answer title (h1 heading extracted into text file)
 * Lesson content (contents of p tags of lessons extracted to text file)
 * Now the contents of TOCs is extracted into the text file
 * Now the contents of bullet points are extracted. These are bullet points in the form of `li` tags inside the lesson
-* Then the process repeats for all the other lessons inside the course and whole course is scrapped into one text file
 
 ## Limitations
 * Content of code blocks, code widgets, SPA, etc are not extracted
