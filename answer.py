@@ -61,10 +61,10 @@ def main():
     print('Validating if you are logged in. Please wait...')
     print('')
     driver.get("https://www.educative.io/learn")
-
+    URL = ['https://www.educative.io/learn']
     myProgressBar(10)
     print('')
-    if driver.current_url not in "https://www.educative.io/learn")":
+    if driver.current_url not in URL:
         system('clear')
         print("We detected you are not logged in yet! Program aborted.")
         driver.quit()
